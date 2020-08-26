@@ -9,7 +9,7 @@
 
 .Projects h4 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -17,7 +17,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 50px 0 150px;
+    padding: 50px 10px;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 rgba(80, 91, 152, 0.1);
 }
 
 .ImageContainer {
@@ -25,6 +28,7 @@
     position: relative;
     top: 0;
     border-radius: 20px;
+    margin: 20px;
 }
 
 .ImageContainer img {
@@ -36,9 +40,8 @@
 }
 
 .Description {
-    width: 45%;
-    padding: 0 40px;
-    margin-top: -10px;
+    width: calc(45% - 40px);
+    padding: 20px 40px 0;
     font-size: 16px;
     line-height: 1.7;
 }

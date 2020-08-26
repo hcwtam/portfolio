@@ -4,7 +4,7 @@ import styles from './Contact.module.css';
 
 interface Props {}
 
-export default function Contact({}: Props): ReactElement {
+export default function Contact(): ReactElement {
   return (
     <section className={styles.Contact} id="contact">
       <h3>Get in Touch</h3>

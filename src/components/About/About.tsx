@@ -10,7 +10,7 @@ import git from '../../assets/git.png';
 
 interface Props {}
 
-export default function About({}: Props): ReactElement {
+export default function About(): ReactElement {
   return (
     <section className={styles.About} id="aboutme">
       <article className={styles.Article}>

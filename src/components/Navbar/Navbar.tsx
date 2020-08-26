@@ -1,11 +1,10 @@
 import React, { ReactElement } from 'react';
-import Link from 'react-router-dom';
 
 import styles from './Navbar.module.css';
 
 interface Props {}
 
-export default function Navbar({}: Props): ReactElement {
+export default function Navbar(): ReactElement {
   return (
     <nav className={styles.Navbar}>
       <div className={styles.Logo}>WT</div>
@@ -21,10 +20,10 @@ export default function Navbar({}: Props): ReactElement {
         </li>
       </ul>
       <div className={styles.Icons}>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="a" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin" />
         </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="a" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github" />
         </a>
         <button className={styles.Resume}>Resume</button>

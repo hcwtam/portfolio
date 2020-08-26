@@ -6,9 +6,9 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
 
-import pic1 from './assets/3.png';
-import pic2 from './assets/2.png';
-import pic3 from './assets/4.png';
+// import pic1 from './assets/3.png';
+// import pic2 from './assets/2.png';
+// import pic3 from './assets/4.png';
 
 function App() {
   return (

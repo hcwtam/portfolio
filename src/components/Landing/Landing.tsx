@@ -4,7 +4,7 @@ import styles from './Landing.module.css';
 
 interface Props {}
 
-export default function Landing({}: Props): ReactElement {
+export default function Landing(): ReactElement {
   return (
     <section className={styles.Landing}>
       <h6>Hello! My name is</h6>

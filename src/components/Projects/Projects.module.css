@@ -1,13 +1,14 @@
 .Projects {
-    margin-bottom: 150px;
-    padding: 50px 120px;
+    margin-bottom: 120px;
+    padding: 50px 10vw;
 }
 
 .Projects h3 {
     text-align: center;
+    margin: 50px 0 70px;
 }
 
-.Projects h4 {
+.Project h4 {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -29,6 +30,11 @@
     top: 0;
     border-radius: 20px;
     margin: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.ImageContainer:hover {
+    transform: scale(1.02);
 }
 
 .ImageContainer img {
@@ -83,6 +89,10 @@
 
 .Icons i:hover {
     color: var(--turquoise)
+}
+
+.Other {
+    margin: 200px 0 80px;
 }
 
 .Others {

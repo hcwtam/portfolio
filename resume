@@ -1,0 +1,47 @@
+Wesley Tam
+email: hcwtam@gmail.com     phone: +44 7479 536 162     website: wesleytam.tech     github: github/hcwtam
+
+Description
+- eager quick learner to pick up new technologies
+-troubleshoot
+-enthusiasm and passion
+-proactive
+-work well together
+-strong problem solver
+-eye for detail
+-developing and deploy web applications
+
+
+I am a passionate front-end developer who strives to accomplish my work to the highest standard. I am fascinated in finding solutions for complex problems, and working on meaningful applications that benefit others. Being an engineer at heart, I take pride in my enthusiasm for learning new things, and I am not afraid to troubleshoot until the problem is resolved. Having lived and worked in Hong Kong and United Kingdom has honed my open-mindedness and adaptiveness.
+
+Skills
+-React -Javascript -Typescript -HTML -CSS -Git
+
+Projects
+Reactgram: An instagram clone built with React and Typescript for uploading pictures, commenting, and sharing posts with your friends. I created custom hooks for logics such as liking and sharing posts to improve code reusability.
+
+//I have chosen Context for global state management for states such as user authentication. SWR is used for data-fetching because it provides useful features such as data revalidation for constant data updates and, which is perfect for social networking applications.
+
+Fruity: An e-commerce application for grocery shopping, with features to select products to cart, browse individual product detail, checkout and visit purchase history. I have utilised React, Typescript and Firebase for developing this project. Jest and React Testing Library is used for testing unit testing.
+
+// Focused heavily on pleasant shopping experience by offer simply and intuitive shopping flow.
+
+
+Fitness tracker: A personal tracker for recording progress in workout progression. This React application allows user to record progress for each workout session, and showcase various progressions graphically.
+
+Typing Trainer: Understanding the importance of typing in productivity and efficiency, this React web app provides the way to help user improve typing speed and accuracy. A dashboard offers at-a-glance view for average typing speed and overall accuracy for current training session.
+
+Experience
+Feb 2018 - Mar 2019 Project Engineer, RV Automation Technology Company Limited, Hong Kong
+- Devised, developed, and reviewed scalable solutions for warehouse automation projects in accordance with safety and quality standards.
+- Liaise with clients on customer requirements, and work collaboratively with management and engineers to fulfil such needs.
+
+Jan 2017 – Jun 2017 Engineering Intern, Designability Charity Ltd, United Kingdom
+- Responsible for production and operations of powered wheelchairs. Devised production flow for the product and delivery procedures for the products
+- Collaborated with colleagues to generate detailed designs for powered wheelchair mechanisms. 
+
+Summer 2016 - Engineering Intern – WSP/Parsons Brinckerhoff, Hong Kong
+- Interacted on a daily basis with coworkers on planning, installation and maintenance of ventilation systems has helped me to develop technical communication skills in conveying ideas and solutions to team members.
+
+Education
+2014 - 2018 University of Bath, Master's Degree in Mechanical Engineering

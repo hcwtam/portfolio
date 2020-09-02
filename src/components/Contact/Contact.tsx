@@ -1,6 +1,7 @@
 import React, { ReactElement } from 'react';
 
 import styles from './Contact.module.css';
+import Footer from '../Footer/Footer';
 
 interface Props {}
 
@@ -13,13 +14,14 @@ export default function Contact(): ReactElement {
         just want to connect!
       </p>
       <a
-        href="hcwtam@gmail.com"
+        href="mailto:hcwtam@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         style={{ fontSize: 24 }}
       >
         hcwtam@gmail.com
       </a>
+      <Footer />
     </section>
   );
 }

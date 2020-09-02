@@ -72,7 +72,7 @@ export default function Projects(): ReactElement {
             <a href="a">Fruity</a>
           </h4>
           <p>
-            An e-commerce application for online grcoery shopping. Includes an
+            An e-commerce application for online grocery shopping. Includes an
             easy-to-use checkout, detail page for your favourite products, and
             own purchase history for your reference.
           </p>
@@ -101,7 +101,7 @@ export default function Projects(): ReactElement {
           </a>
         </div>
       </div>
-      <h4>Other Projects</h4>
+      <h4 className={styles.Other}>Other noteworthy projects:</h4>
       <div className={styles.Others}>{cards}</div>
     </section>
   );

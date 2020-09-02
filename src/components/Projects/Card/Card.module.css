@@ -1,14 +1,15 @@
 .Card {
     width: 30%;
     border-radius: 30px;
-    background-color: rgb(241, 248, 244);
+    background-color: rgb(233, 241, 237);
     font-weight: normal;
     padding: 20px 40px;
     display: flex;
     flex-flow: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 30px;
-    box-shadow: 0 0 5px 0 rgba(80, 91, 152, 0.1);
+    box-shadow: 0 0 20px 0 rgba(80, 91, 152, 0.1);
+    line-height: 1.8;
 }
 
 .Icons {

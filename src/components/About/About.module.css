@@ -3,7 +3,7 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 30px 120px 200px;
+    padding: 30px 10vw 200px;
     background-color: rgba(239, 246, 254, 1);
 }
 
@@ -12,7 +12,7 @@
 }
 
 .About h4 {
-    margin: 200px 0 100px;
+    margin: 250px 0 120px;
 }
 
 .Article {
@@ -35,7 +35,7 @@
     position: relative;
     height: 320px;
     width: 320px;
-    margin: 150px 100px 0;
+    margin: 160px 8vw 0 0;
     border-radius: 50%;
     z-index: 50;
 }
@@ -45,7 +45,7 @@
     display: block;
     position: relative;
     bottom: 420px;
-    right: 150px;
+    right: 130px;
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -62,6 +62,7 @@
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 0 0 30px 0 rgba(80, 91, 152, 0.1);
 }
 
 .Technologies {

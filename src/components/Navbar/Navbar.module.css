@@ -10,11 +10,9 @@
   align-items: center;
   transition: all 0.3s ease-out;
   background-color: white;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 95%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 1) 95%,
+      rgba(255, 255, 255, 0) 100%);
   z-index: 999;
 }
 
@@ -104,5 +102,101 @@
   transform: translateY(-90px);
 }
 
-@media (max-width: 930px) {
+.Sidebar {
+  display: none;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hamburger {
+  display: none;
+  position: relative;
+  top: 40px;
+  right: 2px;
+  width: 30px;
+  height: 4px;
+  background: linear-gradient(180deg, #5b94ff 41%, #5d75ff 74%);
+  border-radius: 2px;
+}
+
+.Hamburger::before,
+.Hamburger::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: linear-gradient(180deg, #5b94ff 41%, #5d75ff 74%);
+  border-radius: 2px;
+  position: relative;
+}
+
+.Hamburger::before {
+  top: -10px;
+}
+
+.Hamburger::after {
+  top: 6px;
+}
+
+.Rodal {
+  height: 80%;
+  padding-top: 100px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.RodalLinks {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.RodalLinks li {
+  margin: 50px 0;
+}
+
+.RodalIcons {
+  padding-top: 80px;
+}
+
+.RodalButton {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.RodalButton .Resume {
+  font-size: 20px;
+  padding: 25px 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 940px) {
+  .Navbar {
+    padding: 0 5vw;
+  }
+
+  .Icons {
+    display: none;
+  }
+
+  .Links {
+    display: none;
+  }
+
+  .Logo a {
+    padding: 0;
+  }
+
+  .Sidebar {
+    display: block;
+  }
+
+  .Hamburger {
+    display: block;
+  }
 }

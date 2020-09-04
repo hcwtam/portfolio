@@ -17,6 +17,7 @@
 .Project {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     padding: 50px 10px;
     margin-bottom: 80px;
@@ -55,19 +56,20 @@
 .Description ul {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none;
     text-align: center;
     color: grey;
     font-weight: 400;
     font-size: 14px;
     width: 100%;
+    padding: 0;
 }
 
 .Description li {
-    padding: 10px 0;
-    width: 33%;
-    text-align: left;
+    margin: 10px 10px;
+    padding: 0;
+    text-align: center;
 }
 
 .Icons {
@@ -98,4 +100,57 @@
 .Others {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+    .Project {
+        flex-flow: column;
+        justify-content: flex-start;
+        padding: 20px 20px 40px;
+    }
+
+    .ImageContainer {
+        width: 95%;
+        height: 50%;
+        order: 1;
+    }
+
+    .Description {
+        width: 100%;
+        order: 2;
+        position: relative;
+        text-align: center;
+        padding: 0;
+    }
+
+    .Description p {
+        text-align: left;
+        padding: 0 5px;
+    }
+
+    .Others {
+        flex-flow: column;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .Projects {
+        padding: 80px 0;
+    }
+
+    .Project {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .Others {
+        background-color: white;
+    }
+
+    .Other {
+        background-color: white;
+        margin: 0;
+        padding: 100px 20px 50px;
+    }
 }

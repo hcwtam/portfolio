@@ -46,11 +46,24 @@
 }
 
 .Card li {
-    padding: 10px 0;
-    width: 30%;
+    margin: 10px 0;
     text-align: left;
 }
 
 :global(.dark) .Card {
     background-color: rgb(30, 33, 49);
+}
+
+@media (max-width: 1000px) {
+    .Card {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Card {
+        box-shadow: none;
+        background-color: white;
+    }
 }

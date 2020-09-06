@@ -117,11 +117,9 @@ export default function Navbar(): ReactElement {
 
   return (
     <nav className={`${styles.Navbar} ${!show && styles.Hide}`}>
-      <div className={styles.Logo}>
-        <Link to="landing" spy={true} smooth={true} offset={-30} duration={500}>
-          WT
-        </Link>
-      </div>
+      <Link to="landing" spy={true} smooth={true} offset={-30} duration={500}>
+        <div className={styles.Logo}>WT</div>
+      </Link>
       <ul className={styles.Links}>{listItems}</ul>
       <div className={styles.Icons}>
         {icons}

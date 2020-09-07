@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import portrait from '../../assets/portrait.jpeg';
+import portrait from '../../assets/portrait.jpg';
 import styles from './About.module.css';
 import javascript from '../../assets/javascript.png';
 import typescript from '../../assets/typescript.png';

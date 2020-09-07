@@ -10,11 +10,9 @@
   align-items: center;
   transition: all 0.3s ease-out;
   background-color: white;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 95%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 1) 95%,
+      rgba(255, 255, 255, 0) 100%);
   z-index: 999;
 }
 
@@ -34,6 +32,7 @@
 .Links {
   list-style: none;
   display: flex;
+  padding-left: 8vw;
 }
 
 .Links li,
@@ -108,10 +107,6 @@
   display: none;
   cursor: pointer;
   height: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .Hamburger {

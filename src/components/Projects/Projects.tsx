@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 
 import styles from './Projects.module.css';
 import reactgram from '../../assets/reactgram.jpg';
-import fruity from '../../assets/fruity.png';
+import fruity from '../../assets/fruity.jpg';
 import other from './other.json';
 import Card from './Card/Card';
 

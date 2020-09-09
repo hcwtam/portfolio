@@ -1,7 +1,7 @@
 .Contact {
     position: relative;
-    padding: 50px 10vw;
-    height: 100vh;
+    padding: 150px 10vw 100px;
+    min-height: 100vh;
     background-color: #F3F6FB;
     font-size: 20px;
     display: flex;

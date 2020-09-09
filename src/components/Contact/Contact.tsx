@@ -10,8 +10,8 @@ export default function Contact(): ReactElement {
     <section className={styles.Contact} id="contact">
       <h3>Get in Touch</h3>
       <p>
-        Please feel free to contact me if you are looking for a developer, or
-        just want to connect!
+        Please do not hesitate to contact me if you are looking for a developer,
+        or just want to connect!
       </p>
       <a
         href="mailto:hcwtam@gmail.com"

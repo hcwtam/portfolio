@@ -1,14 +1,14 @@
 import React, { ReactElement, useState, useEffect, useCallback } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import Rodal from 'rodal';
 
 import 'rodal/lib/rodal.css';
-import styles from './Navbar.module.css';
-import cv from '../../assets/Wesley_Tam_CV.pdf';
+import styles from './SubNavbar.module.css';
+import cv from '../../../assets/Wesley_Tam_CV.pdf';
 
 const INITIAL_POSITION = window.scrollY;
 
-export default function Navbar(): ReactElement {
+export default function SubNavbar(): ReactElement {
   const [position, setPosition] = useState(INITIAL_POSITION);
   const [show, setShow] = useState(true);
   const [openModal, setOpenModal] = useState(false);
@@ -52,45 +52,6 @@ export default function Navbar(): ReactElement {
     document.body.style.overflow = 'auto';
   };
 
-  const listItems = (
-    <>
-      <li>
-        <Link
-          to="aboutme"
-          spy={true}
-          smooth={true}
-          duration={500}
-          onClick={closeModal}
-        >
-          About Me
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="projects"
-          spy={true}
-          smooth={true}
-          offset={40}
-          duration={500}
-          onClick={closeModal}
-        >
-          Projects
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="contact"
-          spy={true}
-          smooth={true}
-          duration={500}
-          onClick={closeModal}
-        >
-          Contact
-        </Link>
-      </li>
-    </>
-  );
-
   const icons = (
     <>
       <a
@@ -120,10 +81,9 @@ export default function Navbar(): ReactElement {
 
   return (
     <nav className={`${styles.Navbar} ${!show && styles.Hide}`}>
-      <Link to="landing" spy={true} smooth={true} offset={-30} duration={500}>
+      <Link to="/">
         <div className={styles.Logo}>WT</div>
       </Link>
-      <ul className={styles.Links}>{listItems}</ul>
       <div className={styles.Icons}>
         {icons}
         {resume}
@@ -138,7 +98,6 @@ export default function Navbar(): ReactElement {
         animation="slideRight"
       >
         <div className={styles.Rodal}>
-          <ul className={styles.RodalLinks}>{listItems}</ul>
           <div className={styles.RodalIcons}>{icons}</div>
           <div className={styles.RodalButton}>{resume}</div>
         </div>

@@ -35,3 +35,35 @@ Other Projects
 Get in touch
 
 Please feel free to contact me if you are looking for a developer, or just want to connect!
+
+
+React detail:
+
+Reactgram is a web application that includes functionalities of Instagram. I decided to create this project to solidify my abilities to create a functional web app for different users. Main features of this application includes sharing photos to news feed as posts, posting comments, liking and saving post, viewing user profiles as well as changing personal profile information.
+
+Project Description: React and Typescript are used for this project. For state management, I have taken the approach of seperating states into three categories: global, local and fetched data. 
+
+React Context is used for data that are shared across the application, such as authentication and user data. Context helps to avoid passing data through multiple levels of the tree. Whereas local data such as showing and hiding components are simply passed as props.
+
+I have used SWR, a React Hooks library for remote data fetching for fetched data states. It is a great solution for components such as posts which requires requesting data asychronously. SWR offers the benefits of fetching, caching and refetching, ensuring a constant stream of data updates.
+
+Challenges encountered: During development of this project, I have had the problem of writing similar codes for similar scenarios. For example, liking posts in homepage happen to be very similar to liking specific post when opened in a modal. I realised that repeating code with similar logic in different places makes it hard to maintain and requires more time to develop.
+
+Solutions and Takeaways: To tackle the aforementioned problem, I have adopted the "Don't Repeat Yourself" principle by utilising custom hooks to ensure code reusability. React hooks allow me to customise input and output of the function. For instance, I pass in user ID and post data of a specific post, and receive number of likes as state as well as functions to control said state. I found success with it to have much simpler, more maintainable code. I have realised the importance and advantages of code refactoring.
+
+Fruity detail:
+
+Fruity is an e-commerce application built with React and Typescript. I challenged myself to create this app that emphasises on providing user-friendly and smooth shopping experience. Fruity offers essential e-commerce features such as shopping cart, product detail, products filter, checkout and purchase history.
+
+Project Description: 
+
+Creating a responsive web app is crucial for e-commerce. To ensure the application is suitable for any screen size and mobile-friendly, media queries are used to cater for different viewports. CSS modules is used to guarantee that specific styles only apply to that component and nothing else.
+
+Redux is used for state manangement for this app. It encourages a clean way to maintain states by providing a central store. By combining reducers that serve different purposes, such as updating authentication or order data, results could be gathered to a single, easily manageable state object. I found dispatching actions to be a clear way trigger state changes.
+
+Challenges encountered: Throughout the development process, things went smoothly as I built components from scratch. As I have completed the basic layout of the application, I tried to improve structure of various components. For example, I decided to change the display of products, so that they can be added directly into cart. Unfortunately, it did not work as expected and I had a hard time figuring out the problem.
+
+Solutions and Takeaways: For me, the first thing that came into mind when something went wrong was to log variables in the console. I used console.log frantically for multiple suspicious variables, but to no avail. I decided to use a different approach by inspecting Redux DevTools, an extension used specifically for inspecting Redux states and action payload. It allowed me to go back in time to examine exact state at different moments. I quickly noticed that an expecting action was missing and figured I have missed a crucial part in the code. I have learnt to use different methods and DevTools for debugging.
+
+I wrote unit tests using Jest and React Testing Library. They give me confidence that each component will perform as intended. This is particularly useful when I have made changes to the component. I focused on making sure to test functionalities instead of implementation details, such as whether a function of a third party package will work or not. Unit tests allow me to know which particular component is causing error, saving much time and hassle from wild guessing and testing manually. Writing tests also forced me to better understand the design requirements, which encouraged me to design components in the end user's perspective.
+

@@ -21,7 +21,7 @@ export default function Card({
     <div className={styles.Card}>
       <div>
         <h5>
-          <a href="link" target="_blank" rel="noopener noreferrer">
+          <a href={link || github} target="_blank" rel="noopener noreferrer">
             {title}
           </a>
         </h5>

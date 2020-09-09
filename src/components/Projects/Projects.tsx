@@ -5,6 +5,7 @@ import reactgram from '../../assets/reactgram.jpg';
 import fruity from '../../assets/fruity.jpg';
 import other from './other.json';
 import Card from './Card/Card';
+import { Link } from 'react-router-dom';
 
 interface Props {}
 
@@ -25,24 +26,18 @@ export default function Projects(): ReactElement {
   return (
     <section className={styles.Projects} id="projects">
       <h3>My Projects</h3>
-      <div className={`${styles.Project} ${styles.Project1}`}>
+      <div className={styles.Project} id="reactgram">
         <div className={styles.ImageContainer}>
-          <a href="a" target="_blank" rel="noopener noreferrer">
+          <Link to="/reactgram">
             <img src={reactgram} alt="project 1" />
-          </a>
+          </Link>
         </div>
         <div className={styles.Description}>
           <h4>
-            <a
-              href="https://github.com/hcwtam/projects/tree/master/037-reactgram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Reactgram
-            </a>
+            <Link to="/reactgram">Reactgram</Link>
           </h4>
           <p>
-            A clone of instagram built with react. You may share photos, add
+            A clone of instagram built with React. You may share photos, add
             captions, follow friends, post comments and more.
           </p>
           <ul>
@@ -52,24 +47,15 @@ export default function Projects(): ReactElement {
             <li>Typescript</li>
             <li>Firebase</li>
           </ul>
-          <div className={styles.Icons}>
-            <a
-              href="https://github.com/hcwtam/projects/tree/master/037-reactgram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github" />
-            </a>
-            <a href="a" target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-external-link-alt" />
-            </a>
-          </div>
+          <Link to="/reactgram">
+            <h5>Learn More</h5>
+          </Link>
         </div>
       </div>
-      <div className={`${styles.Project} ${styles.Project2}`}>
+      <div className={styles.Project} id="fruity">
         <div className={styles.Description}>
           <h4>
-            <a href="a">Fruity</a>
+            <Link to="/fruity">Fruity</Link>
           </h4>
           <p>
             An e-commerce application for online grocery shopping. Includes an
@@ -82,23 +68,14 @@ export default function Projects(): ReactElement {
             <li>Typescript</li>
             <li>Firebase</li>
           </ul>
-          <div className={styles.Icons}>
-            <a
-              href="https://github.com/hcwtam/projects/tree/master/035-ecommerce"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github" />
-            </a>
-            <a href="a" target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-external-link-alt" />
-            </a>
-          </div>
+          <Link to="/fruity">
+            <h5>Learn More</h5>
+          </Link>
         </div>
         <div className={styles.ImageContainer}>
-          <a href="a" target="_blank" rel="noopener noreferrer">
+          <Link to="fruity">
             <img src={fruity} alt="project 2" />
-          </a>
+          </Link>
         </div>
       </div>
       <h4 className={styles.Other}>Other noteworthy projects:</h4>

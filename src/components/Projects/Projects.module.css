@@ -48,7 +48,7 @@
 
 .Description {
     width: calc(45% - 40px);
-    padding: 20px 40px 0;
+    padding: 0 40px;
     font-size: 16px;
     line-height: 1.7;
 }
@@ -69,6 +69,11 @@
 .Description li {
     margin: 10px 10px;
     padding: 0;
+    text-align: center;
+}
+
+.Description a {
+    width: 100%;
     text-align: center;
 }
 

@@ -37,11 +37,11 @@ export default function Fruity(): ReactElement {
         </div>
         <p>
           Fruity is an e-commerce application built with <b>React</b> and{' '}
-          <b>Typescript</b>. Firebase is used for backend and database. I
-          challenged myself to create this app that emphasises on providing a
-          user-friendly and smooth shopping experience. Fruity offers essential
-          e-commerce features such as shopping cart, product detail, products
-          filter, checkout and purchase history.
+          <b>Typescript</b>. I challenged myself to create this app that
+          emphasises on providing a user-friendly and smooth shopping
+          experience. Fruity offers essential e-commerce features such as
+          shopping cart, product detail, products filter, checkout and purchase
+          history.
         </p>
         <div className={styles.ImageContainer}>
           <img src={pic1} alt="Homepage of Fruity" />
@@ -66,6 +66,7 @@ export default function Fruity(): ReactElement {
           easily manageable state object. I found dispatching actions to be a
           clear way to trigger state changes.
         </p>
+        <p>For backend and database, Firebase is used.</p>
         <h4>Challenges encountered</h4>
         <p>
           Throughout the development process, things went smoothly as I built

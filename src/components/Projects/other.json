@@ -1,5 +1,5 @@
 [{
-        "title": "Typing Training",
+        "title": "Typing Trainer",
         "description": "Improve your typing speed and accuracy by training everyday. Displays typing speed and error counts for each training session.",
         "technologies": ["React", "SWR", "Typescript"],
         "github": "https://github.com/hcwtam/projects/tree/master/031-typing-practice",

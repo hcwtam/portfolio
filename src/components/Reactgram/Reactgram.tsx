@@ -17,15 +17,7 @@ export default function Reactgram(): ReactElement {
     <>
       <SubNavbar />
       <div className={styles.Reactgram}>
-        <h3>
-          <a
-            href="https://reactgram-ac3b0.web.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Reactgram
-          </a>
-        </h3>
+        <h3>Reactgram</h3>
         <div className={styles.Icons}>
           <a
             href="https://github.com/hcwtam/projects/tree/master/037-reactgram"

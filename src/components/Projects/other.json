@@ -2,7 +2,7 @@
         "title": "Typing Trainer",
         "description": "Improve your typing speed and accuracy by training everyday. Displays typing speed and error counts for each training session.",
         "technologies": ["React", "SWR", "Typescript"],
-        "github": "https://github.com/hcwtam/projects/tree/master/031-typing-practice",
+        "github": "https://github.com/hcwtam/typing-trainer",
         "link": ""
     },
     {
@@ -16,7 +16,7 @@
         "title": "Portfolio",
         "description": "A portfolio for introducing myself and showcasing my projects.",
         "technologies": ["React", "Typescript"],
-        "github": "https://github.com/hcwtam/projects/tree/master/038-portfolio",
+        "github": "https://github.com/hcwtam/portfolio",
         "link": ""
     }
 ]

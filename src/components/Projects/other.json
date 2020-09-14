@@ -1,9 +1,9 @@
 [{
         "title": "Typing Trainer",
         "description": "Improve your typing speed and accuracy by training everyday. Displays typing speed and error counts for each training session.",
-        "technologies": ["React", "SWR", "Typescript"],
+        "technologies": ["React", "styled-component"],
         "github": "https://github.com/hcwtam/typing-trainer",
-        "link": ""
+        "link": "https://typing-trainer.netlify.app/"
     },
     {
         "title": "Fitness Tracker",

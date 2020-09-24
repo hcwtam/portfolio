@@ -23,10 +23,10 @@ export default function About(): ReactElement {
         <p>
           I graduated from the{' '}
           <a href="https://www.bath.ac.uk/">University of Bath</a> with a
-          master's degree in Mechanical Engineer. Having worked as an engineer
-          in the robotics field, I discovered my interest in computer science
-          and programming. I enjoy using my technical and analytical skills to
-          solve challenges.
+          master's degree in Mechanical Engineering. Having worked as an
+          engineer in the robotics field, I discovered my interest in computer
+          science and programming. I enjoy using my technical and analytical
+          skills to solve challenges.
         </p>
       </article>
       <div className={styles.ImageContainer}>
